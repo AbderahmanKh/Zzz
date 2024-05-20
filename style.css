@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.section1 {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(/Img/22.jpg);
+    background-size: cover;
+    background-position: center;
+}
