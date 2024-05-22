@@ -6,14 +6,16 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: 'poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-body {
+html, body {
+    width: 100%;
+    overflow-x: hidden;
     background: #f1fbff;
 }
 
-section-padding {
+.section-padding {
     padding: 100px 0;
 }
 
@@ -40,6 +42,7 @@ section-padding {
     font-size: 18px;
     line-height: 1.8;
 }
+
 .carousel-inner::before {
     content: '';
     position: absolute;
@@ -71,5 +74,4 @@ section-padding {
 
 ::-webkit-scrollbar-track {
     border-radius: 100px;
-
 }
